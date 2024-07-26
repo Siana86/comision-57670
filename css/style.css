@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* Reset de estilos para adaptarse a diferentes navegadores
+*/ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*  
+font-family: "IBM Plex Sans", sans-serif;
+*/
+
+/* 
+Estilos del header
+*/
+
+.navbar {
+    list-style: none;
+    background-color: #e3e3e3;
+    padding: 10px 20px;       
+}
+
+.navbar li a {
+    text-decoration: none;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: bold;
+    color: #070a0d;       
+}
+
+.logo img {
+    width: 10%;
+    background-color: #e3e3e3;
+}
+
+
+/* 
+Estilos del footer
+*/
+
+.footerOption {
+    background-color: #c0c0c0;
+    padding: 10px 20px;       
+}
+
+.footerOption div ul {
+    list-style: none;         
+}
+
+.footerOption div ul li a {
+    text-decoration: none;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight:500;
+    color: #585858;
+}
+
+.footerRedes ul {
+    border-top:  3px;
+}
+
+/* 
+Estilos de los textos y titulos
+*/
+ul li {
+    list-style: none;
+}
+
+
+p {
+    font-family: "IBM Plex Sans", sans-serif;
+    color: black;
+    font-size: 1.25rem;
+}
+
+h3{
+    font-family: "IBM Plex Sans", sans-serif;
+    color: black;
+    font-size: 2rem;
+}
+
+h4{
+    font-family: "IBM Plex Sans", sans-serif;
+    color: black;
+    font-size: 1.1rem; 
+}
+
+
+
+/* 
+Estilos generales 
+*/
+/* Atencion con este estilo, puede no ser necesario*/
+
+img {
+    border-radius: 2%;
+}
+
+.bannerPrincipal img {
+    text-decoration: none;
+    padding: 20px 10px;
+    margin: 5px 5px;
+    width: 98%;
+}
+
+.bannerPrincipal p {
+    font-size: xx-large;
+    color: #94b6cc;
+    font-weight: bold;
+}
+
+.infoClaro {
+    background-color: #deeaef;
+    border-radius: 1.25rem;
+    padding: 20px 10px;
+    margin: 5px 5px;
+    width: 12.5rem;
+}
+
+.infoOscuro {
+    background-color: #c0d7e1;
+    border-radius: 1.25rem;
+    padding: 20px 10px;
+    margin: 5px 5px;
+    width: 12.5rem;
+}
+
+.btnMasInfoBlanco {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: medium;
+}
+
+.btnMasInfoBlanco a {
+    text-decoration: none;
+    background-color: #f7f7f7;
+    padding: .3125rem 1.875rem;
+    border-radius: 1.25rem;
+}
+
+.btnMasInfoAzul {
+    font-family: "IBM Plex Sans", sans-serif;    
+    font-size: medium;
+}
+
+.btnMasInfoAzul a {
+    text-decoration: none;
+    background-color: #365268;
+    color: #f7f7f7;
+    padding: .3125rem 1.875rem;
+    border-radius: 1.25rem;
+}
+
+.btnMasInfoNegro {
+    font-family: "IBM Plex Sans", sans-serif;    
+    font-size: medium;
+}
+
+.btnMasInfoNegro a {
+    text-decoration: none;
+    background-color:#070a0d;
+    color: #f7f7f7;
+    padding: .3125rem 1.875rem;
+    border-radius: 1.25rem;
+}
+
+.btnNegro button{
+    text-decoration: none;
+    background-color:#070a0d;
+    color: #f7f7f7;
+    padding: .3125rem 1.875rem;
+    margin: .375rem .25rem;    
+    border-radius: 1.25rem;
+}
+
+
+section {
+    font-family: "IBM Plex Sans", sans-serif;    
+    font-size: medium;
+}
+
+
+.selector div {
+    text-decoration: none;    
+    background-color:#f2f7f9;
+    padding: .3125rem 1.875rem;
+    border-radius: .3125rem;
+    width: fit-content;      
+}
+
+
+.selectorFondoOscuro fieldset {
+    text-decoration: none;    
+    background-color:#94b6cc;
+    padding: .3125rem 1.875rem;
+    border-radius: .3125rem;
+    width: fit-content;  
+}
+
+.selectorFondoClaro fieldset {
+    text-decoration: none;    
+    background-color:#d1d1d1;
+    padding: .3125rem 1.875rem;
+    border-radius: .3125rem;
+    width: fit-content;  
+}
+
+.imagenFondoOscuro {
+    text-decoration: none;    
+    background-color:#94b6cc;
+    padding: .3125rem 1.875rem;
+    border-radius: .3125rem;
+    width: fit-content;
+}
+
+.imagenFondoClaro {
+    text-decoration: none;    
+    background-color:#d1d1d1;
+    padding: .3125rem 1.875rem;
+    border-radius: .3125rem;
+    width: fit-content; 
+}
+
+.precioUnitario {
+    text-decoration: none;    
+    background-color:#d1d1d1;
+    font-size: small;
+    font-weight: bold;
+    width: fit-content;
+    padding: .3125rem 1.875rem; 
+    margin: .3125rem .3125rem;
+}
+
+.precioTotal{
+    text-decoration: none;    
+    background-color:#d1d1d1;
+    font-size: small;
+    font-weight:bolder;
+    width: fit-content;
+    padding: .3125rem 1.875rem; 
+    margin: .3125rem .3125rem;    
+}
+
+.cardFondoAzul {
+    text-decoration: none;    
+    background-color:#94b9cc;
+    font-size: small;
+    border-radius: 1.25rem;    
+    width: 18.75rem;
+    padding: .3125rem 1.875rem; 
+    margin: .3125rem .3125rem;  
+}
+
+.cardFondoGris {
+    text-decoration: none;    
+    background-color:#c0c0c0;
+    font-size: small;
+    border-radius: 1.25rem;    
+    width: 18.75rem;
+    padding: .3125rem 1.875rem; 
+    margin: .3125rem .3125rem; 
+}
+
+
+.imgCard img {
+    width: 15.625rem;
+    padding: .3125rem .3125rem; 
+    margin: .3125rem .3125rem;
+}
+
+.cardSoporte div {
+    text-decoration: none;       
+    background-color:#d9d9d9;
+    font-size: small;
+    border-radius: 1.25rem;    
+    width: 18.75rem;
+    padding: .3125rem 1.875rem; 
+    margin: .3125rem .3125rem;
+}
+
+.cardSoporte div a {
+    font-size: small;
+    font-weight: bold;
+    color: #070a0d;
+    margin: .3125rem .3125rem;
+}
+
+.imgSoporte img {
+    width: 15.625rem;
+    border-radius: 1.875rem;
+    padding: .3125rem .3125rem; 
+    margin: .3125rem .3125rem;
+}
+
+.cardMedSoporteAzul {
+    text-decoration: none;    
+    background-color:#94b9cc;    
+    border-radius: 1.25rem;    
+    width: 24.375rem;
+    height: 18.125rem;
+    padding: .3125rem 1.875rem; 
+    margin: .625rem .3125rem;  
+}
+
+.cardMedSoporteAzul div p {
+    font-size: medium;
+}
+
+.cardMedSoporteBlanco {
+    text-decoration: none;    
+    background-color:#f0f0f0;    
+    border-radius: 1.25rem;       
+    width: 24.375rem;
+    height: 18.125rem;
+    padding: .3125rem 1.875rem; 
+    margin: .625rem .3125rem;
+}
+
+.cardMedSoporteBlanco div p {
+    font-size: medium;
+}
+
+.bannerSecundario {
+    text-decoration: none;    
+    background-color:#c0d7e1;
+    width: 81.5rem; 
+    height: 10rem;
+    margin: .625rem .3125rem;
+}
+
+.bannerSecundario div p {
+    font-size: large;
+    margin: .9375rem .3125rem;
+}
+
+
+
+
+/* Estilo para los formularios */
+form {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #fff;
+    padding: 20px;    
+    margin-bottom: 20px;
+}
+
+form label {
+    font-family: "IBM Plex Sans", sans-serif;        
+}
+
+input {
+    appearance: none;
+}
+
+.btnNegro input{
+    text-decoration: none;
+    background-color:#070a0d;
+    color: #f7f7f7;
+    padding: .3125rem 1.875rem;
+    margin: .375rem .25rem;    
+    border-radius: 1.25rem;
+}
