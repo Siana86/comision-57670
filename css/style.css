@@ -31,10 +31,36 @@ Estilos del header
     color: #070a0d;       
 }
 
+
+
+.d-flex {
+    background-color: #e3e3e3;
+    border-color: #585858;
+}
+
 .logo img {
     width: 10%;
     background-color: #e3e3e3;
 }
+
+.buscador {    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.buscador input {
+    width: 100%;
+}
+
+.buscador button {
+    flex-shrink: 0;
+    background-color: #aaaaaa;
+    border-color:#d1d1d2;
+    color: #e3e3e3;
+    font-weight: bold;
+}
+
 
 
 /* 
