@@ -18,6 +18,15 @@ font-family: "IBM Plex Sans", sans-serif;
 Estilos del header
 */
 
+/* Para aplicar flex en el header */
+/* header .nav  {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0rem 30px;
+} */
+
+
 .navbar {
     list-style: none;
     background-color: #e3e3e3;
@@ -67,9 +76,18 @@ Estilos del header
 Estilos del footer
 */
 
+/* footer .div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0rem 30px;
+} */
+
 .footerOption {
     background-color: #c0c0c0;
-    padding: 10px 20px;       
+    padding: 10px 20px;
+    display: flex;
+    justify-content:space-around;       
 }
 
 .footerOption div ul {
@@ -83,8 +101,22 @@ Estilos del footer
     color: #585858;
 }
 
+.footerRedes {
+    text-decoration: none;
+    font-family: "IBM Plex Sans", sans-serif;
+    background-color: #c0c0c0;   
+}
+
 .footerRedes ul {
-    border-top:  3px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    margin: .1875rem;
+    padding: .625rem;
+}
+
+.footerRedes ul div {
+    margin-right: .9375rem;
 }
 
 /* 
@@ -268,32 +300,65 @@ section {
     margin: .3125rem .3125rem;    
 }
 
+
 .cardFondoAzul {
     text-decoration: none;    
     background-color:#94b9cc;
     font-size: small;
     border-radius: 1.25rem;    
-    width: 18.75rem;
-    padding: .3125rem 1.875rem; 
-    margin: .3125rem .3125rem;  
-}
+    width: 23.4375rem;
+    height: 40.375rem;
+    margin: 1.25rem;       
+    }
 
 .cardFondoGris {
     text-decoration: none;    
     background-color:#c0c0c0;
     font-size: small;
     border-radius: 1.25rem;    
-    width: 18.75rem;
+    width: 23.4375rem;
+    height: 40.375rem;
+    margin: 1.25rem;       
+}
+
+
+.cardFondoGris .imgCard img {
+    width: 100%;
+    height: 50%;
     padding: .3125rem 1.875rem; 
     margin: .3125rem .3125rem; 
+    object-fit: cover;    
 }
 
+.cardFondoAzul .imgCard img {
+    width: 100%;
+    height: 50%;
+    padding: .3125rem 1.875rem; 
+    margin: .3125rem .3125rem;
+    object-fit: cover;         
+}
 
 .imgCard img {
-    width: 15.625rem;
-    padding: .3125rem .3125rem; 
-    margin: .3125rem .3125rem;
+    width: 100%;
+    height: 100%;    
+    object-fit: cover;
 }
+
+/* Aplicando flex box a catalago, considerar las clases card que forman parte de esta funcionalidad*/
+
+.seccionProductos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+
+
+
 
 .cardSoporte div {
     text-decoration: none;       
@@ -359,6 +424,7 @@ section {
     font-size: large;
     margin: .9375rem .3125rem;
 }
+
 
 
 
