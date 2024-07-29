@@ -385,12 +385,12 @@ img {
     font-size: medium;    
 }
 
-/* .btnMasInfoBlanco a {
+.btnMasInfoBlanco a {
     text-decoration: none;
     background-color: #f7f7f7;
     padding: .3125rem 1.875rem;
     border-radius: 1.25rem;
-} */
+}
 
 .btnMasInfoAzul {
     font-family: "IBM Plex Sans", sans-serif;    
